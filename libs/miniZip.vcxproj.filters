@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3ec07a2a-404f-45d1-8a0e-244eb7564430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{962a284d-23b7-4553-b5c0-dcd0a8aafba1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\miniZip\ioapi.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniZip\zip.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniZip\iowin32.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniZip\miniunz.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniZip\mztools.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniZip\unzip.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\miniZip\crypt.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniZip\ioapi.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniZip\iowin32.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniZip\mztools.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniZip\unzip.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniZip\zip.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

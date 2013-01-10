@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{70f9f88e-96ce-4a57-a0ef-3192333ff8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{afbba430-90ef-450c-940d-93fd7da1f906}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\timidity\timidity.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\common.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\ctrlmode.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\filter.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\instrum.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\mix.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\output.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\playmidi.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\readmidi.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\resample.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\sdl_a.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\sdl_c.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timidity\tables.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\timidity\common.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\config.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\ctrlmode.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\filter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\instrum.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\mix.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\output.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\playmidi.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\readmidi.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\resample.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\tables.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timidity\timidity.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

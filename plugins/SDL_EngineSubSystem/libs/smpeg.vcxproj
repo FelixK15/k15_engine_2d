@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\smpeg\audio\bitwindow.cpp" />
+    <ClCompile Include="include\smpeg\audio\filter.cpp" />
+    <ClCompile Include="include\smpeg\audio\filter_2.cpp" />
+    <ClCompile Include="include\smpeg\audio\hufftable.cpp" />
+    <ClCompile Include="include\smpeg\audio\MPEGaudio.cpp" />
+    <ClCompile Include="include\smpeg\audio\mpeglayer1.cpp" />
+    <ClCompile Include="include\smpeg\audio\mpeglayer2.cpp" />
+    <ClCompile Include="include\smpeg\audio\mpeglayer3.cpp" />
+    <ClCompile Include="include\smpeg\audio\mpegtable.cpp" />
+    <ClCompile Include="include\smpeg\audio\mpegtoraw.cpp" />
+    <ClCompile Include="include\smpeg\MPEG.cpp" />
+    <ClCompile Include="include\smpeg\MPEGlist.cpp" />
+    <ClCompile Include="include\smpeg\MPEGring.cpp" />
+    <ClCompile Include="include\smpeg\MPEGstream.cpp" />
+    <ClCompile Include="include\smpeg\MPEGsystem.cpp" />
+    <ClCompile Include="include\smpeg\smpeg.cpp" />
+    <ClCompile Include="include\smpeg\video\decoders.cpp" />
+    <ClCompile Include="include\smpeg\video\floatdct.cpp" />
+    <ClCompile Include="include\smpeg\video\gdith.cpp" />
+    <ClCompile Include="include\smpeg\video\jrevdct.cpp" />
+    <ClCompile Include="include\smpeg\video\motionvec.cpp" />
+    <ClCompile Include="include\smpeg\video\MPEGvideo.cpp" />
+    <ClCompile Include="include\smpeg\video\parseblock.cpp" />
+    <ClCompile Include="include\smpeg\video\readfile.cpp" />
+    <ClCompile Include="include\smpeg\video\util.cpp" />
+    <ClCompile Include="include\smpeg\video\vhar128.cpp" />
+    <ClCompile Include="include\smpeg\video\video.cpp" />
+    <ClCompile Include="src\smpeg\MPEGfilter.c" />
+    <ClCompile Include="src\smpeg\plaympeg.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\smpeg\MPEG.h" />
+    <ClInclude Include="include\smpeg\MPEGaction.h" />
+    <ClInclude Include="include\smpeg\MPEGaudio.h" />
+    <ClInclude Include="include\smpeg\MPEGerror.h" />
+    <ClInclude Include="include\smpeg\MPEGfilter.h" />
+    <ClInclude Include="include\smpeg\MPEGlist.h" />
+    <ClInclude Include="include\smpeg\MPEGring.h" />
+    <ClInclude Include="include\smpeg\MPEGstream.h" />
+    <ClInclude Include="include\smpeg\MPEGsystem.h" />
+    <ClInclude Include="include\smpeg\MPEGvideo.h" />
+    <ClInclude Include="include\smpeg\smpeg.h" />
+    <ClInclude Include="include\smpeg\video\decoders.h" />
+    <ClInclude Include="include\smpeg\video\dither.h" />
+    <ClInclude Include="include\smpeg\video\proto.h" />
+    <ClInclude Include="include\smpeg\video\util.h" />
+    <ClInclude Include="include\smpeg\video\vhar128.h" />
+    <ClInclude Include="include\smpeg\video\video.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)libs\bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)libs\obj\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)libs\include\$(ProjectName)\;$(SolutionDir)libs\include\SDL\;$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)libs\bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)libs\obj\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)libs\include\$(ProjectName)\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;WIN32;_WINDOWS;NOCONTROLS;THREADED_AUDIO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>$(SolutionDir)libs\obj\smpeg.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\smpeg.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\smpeg.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\smpeg.dll</OutputFile>
+      <ImportLibrary>.\Debug\smpeg.lib</ImportLibrary>
+      <AdditionalDependencies>wsock32.lib;SDL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;WIN32;_WINDOWS;NOCONTROLS;THREADED_AUDIO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\smpeg.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\smpeg.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\smpeg.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\smpeg.dll</OutputFile>
+      <ImportLibrary>.\Release\smpeg.lib</ImportLibrary>
+      <AdditionalDependencies>SDL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

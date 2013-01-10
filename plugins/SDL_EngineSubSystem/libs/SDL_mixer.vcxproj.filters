@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d35b60af-334a-4399-b754-defc6355fed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{4278f462-a225-4b8d-92d5-4310b420b05f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SDL_mixer\dynamic_flac.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\wavestream.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\dynamic_fluidsynth.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\dynamic_mod.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\dynamic_mp3.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\dynamic_ogg.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\effect_position.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\effect_stereoreverse.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\effects_internal.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\fluidsynth.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\load_aiff.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\load_flac.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\load_ogg.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\load_voc.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\mixer.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\music.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\music_cmd.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\music_flac.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\music_mad.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\music_mod.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\music_modplug.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\music_ogg.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\playmus.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_mixer\playwave.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\SDL_mixer\dynamic_flac.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\dynamic_fluidsynth.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\dynamic_mod.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\dynamic_mp3.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\dynamic_ogg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\effects_internal.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\fluidsynth.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\load_aiff.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\load_flac.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\load_ogg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\load_voc.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\music_cmd.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\music_flac.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\music_mad.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\music_mod.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\music_modplug.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\music_ogg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\SDL_mixer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_mixer\wavestream.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

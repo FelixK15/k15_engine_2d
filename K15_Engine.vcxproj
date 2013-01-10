@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Static|Win32">
+      <Configuration>Debug Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Static|Win32">
+      <Configuration>Release Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AbstractGraphic.cpp" />
+    <ClCompile Include="src\AbstractMusic.cpp" />
+    <ClCompile Include="src\AbstractSound.cpp" />
+    <ClCompile Include="src\BaseShape.cpp" />
+    <ClCompile Include="src\BaseWindow.cpp" />
+    <ClCompile Include="src\AnimatedComponent.cpp" />
+    <ClCompile Include="src\Animation.cpp" />
+    <ClCompile Include="src\AnimationData.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Circle.cpp" />
+    <ClCompile Include="src\CollisionComponent.cpp" />
+    <ClCompile Include="src\CollisionManager.cpp" />
+    <ClCompile Include="src\Color.cpp" />
+    <ClCompile Include="src\ComponentFactory.cpp" />
+    <ClCompile Include="src\ConfigFile.cpp" />
+    <ClCompile Include="src\Console.cpp" />
+    <ClCompile Include="src\DateTime.cpp" />
+    <ClCompile Include="src\Debug.cpp" />
+    <ClCompile Include="src\DrawableString.cpp" />
+    <ClCompile Include="src\DynamicLibrary.cpp" />
+    <ClCompile Include="src\DynLibWindows.cpp" />
+    <ClCompile Include="src\Ellipse.cpp" />
+    <ClCompile Include="src\Event.cpp" />
+    <ClCompile Include="src\EventListenerComponent.cpp" />
+    <ClCompile Include="src\EventManager.cpp" />
+    <ClCompile Include="src\AbstractFontManager.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\GameObjectManager.cpp" />
+    <ClCompile Include="src\GameWorld.cpp" />
+    <ClCompile Include="src\GameWorldFactory.cpp" />
+    <ClCompile Include="src\GameWorldLayer.cpp" />
+    <ClCompile Include="src\GameWorldState.cpp" />
+    <ClCompile Include="src\Globals.cpp" />
+    <ClCompile Include="src\AbstractGraphicManager.cpp" />
+    <ClCompile Include="src\HashedString.cpp" />
+    <ClCompile Include="src\Line.cpp" />
+    <ClCompile Include="src\Log.cpp" />
+    <ClCompile Include="src\LogEntry.cpp" />
+    <ClCompile Include="src\Position.cpp" />
+    <ClCompile Include="src\Events.cpp" />
+    <ClCompile Include="src\Rectangle.cpp" />
+    <ClCompile Include="src\RenderableComponent.cpp" />
+    <ClCompile Include="src\Resource.cpp" />
+    <ClCompile Include="src\ResourceManager.cpp" />
+    <ClCompile Include="src\Size.cpp" />
+    <ClCompile Include="src\StateMachine.cpp" />
+    <ClCompile Include="src\StringConverter.cpp" />
+    <ClCompile Include="src\TiledGameWorldCreator.cpp" />
+    <ClCompile Include="src\VersatileComponent.cpp" />
+    <ClCompile Include="src\ZipResourceFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="documentation\Bugtracking.xls" />
+    <None Include="documentation\ToDo.xls" />
+    <None Include="K15_Engine.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AbstractComponent.h" />
+    <ClInclude Include="include\AbstractFontManager.h" />
+    <ClInclude Include="include\AbstractGraphic.h" />
+    <ClInclude Include="include\AbstractGraphicManager.h" />
+    <ClInclude Include="include\AbstractMessageQueue.h" />
+    <ClInclude Include="include\AbstractMusic.h" />
+    <ClInclude Include="include\AbstractMusicManager.h" />
+    <ClInclude Include="include\AbstractSound.h" />
+    <ClInclude Include="include\AbstractSoundManager.h" />
+    <ClInclude Include="include\AbstractSystemManager.h" />
+    <ClInclude Include="include\AbstractWindow.h" />
+    <ClInclude Include="include\AnimatedComponent.h" />
+    <ClInclude Include="include\Animation.h" />
+    <ClInclude Include="include\AnimationData.h" />
+    <ClInclude Include="include\BaseShape.h" />
+    <ClInclude Include="include\ComponentFactory.h" />
+    <ClInclude Include="include\IState.h" />
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\Circle.h" />
+    <ClInclude Include="include\CollisionComponent.h" />
+    <ClInclude Include="include\CollisionManager.h" />
+    <ClInclude Include="include\Color.h" />
+    <ClInclude Include="include\ConfigFile.h" />
+    <ClInclude Include="include\Console.h" />
+    <ClInclude Include="include\DateTime.h" />
+    <ClInclude Include="include\Debug.h" />
+    <ClInclude Include="include\DLL_Header.h" />
+    <ClInclude Include="include\DrawableString.h" />
+    <ClInclude Include="include\DynamicLibrary.h" />
+    <ClInclude Include="include\DynLibWindows.h" />
+    <ClInclude Include="include\Ellipse.h" />
+    <ClInclude Include="include\Event.h" />
+    <ClInclude Include="include\EventListenerComponent.h" />
+    <ClInclude Include="include\EventManager.h" />
+    <ClInclude Include="include\Events.h" />
+    <ClInclude Include="include\FileHandle.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\GameObjectManager.h" />
+    <ClInclude Include="include\GameWorld.h" />
+    <ClInclude Include="include\GameWorldFactory.h" />
+    <ClInclude Include="include\GameWorldLayer.h" />
+    <ClInclude Include="include\GameWorldState.h" />
+    <ClInclude Include="include\Globals.h" />
+    <ClInclude Include="include\HashedString.h" />
+    <ClInclude Include="include\IDynLibOSSpec.h" />
+    <ClInclude Include="include\IEngineSubSystem.h" />
+    <ClInclude Include="include\IEventListener.h" />
+    <ClInclude Include="include\IFileSubSystem.h" />
+    <ClInclude Include="include\IFont.h" />
+    <ClInclude Include="include\IGame.h" />
+    <ClInclude Include="include\IGraphic.h" />
+    <ClInclude Include="include\IMusic.h" />
+    <ClInclude Include="include\IResourceable.h" />
+    <ClInclude Include="include\IResourceFile.h" />
+    <ClInclude Include="include\ISound.h" />
+    <ClInclude Include="include\Keymap.h" />
+    <ClInclude Include="include\Line.h" />
+    <ClInclude Include="include\Log.h" />
+    <ClInclude Include="include\LogEntry.h" />
+    <ClInclude Include="include\LuaAble.h" />
+    <ClInclude Include="include\LuaCommand.h" />
+    <ClInclude Include="include\LuaManager.h" />
+    <ClInclude Include="include\LuaScript.h" />
+    <ClInclude Include="include\Manager.h" />
+    <ClInclude Include="include\MathForms.h" />
+    <ClInclude Include="include\Position.h" />
+    <ClInclude Include="include\Rectangle.h" />
+    <ClInclude Include="include\RenderableComponent.h" />
+    <ClInclude Include="include\Resource.h" />
+    <ClInclude Include="include\ResourceManager.h" />
+    <ClInclude Include="include\Singleton.h" />
+    <ClInclude Include="include\Size.h" />
+    <ClInclude Include="include\StandardIncludes.h" />
+    <ClInclude Include="include\State.h" />
+    <ClInclude Include="include\StateMachine.h" />
+    <ClInclude Include="include\StringConverter.h" />
+    <ClInclude Include="include\TiledGameWorldCreator.h" />
+    <ClInclude Include="include\Types.h" />
+    <ClInclude Include="include\UsefulMakros.h" />
+    <ClInclude Include="include\Variant.h" />
+    <ClInclude Include="include\VersatileComponent.h" />
+    <ClInclude Include="include\ZipResourceFile.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5A16CC3C-77E6-40C3-B63E-01F2D0249F61}</ProjectGuid>
+    <RootNamespace>K15_Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">
+    <OutDir>$(ProjectDir)bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(ProjectDir)obj\</IntDir>
+    <IncludePath>$(SolutionDir)libs\include\;$(SolutionDir)include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)libs\bin\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">
+    <IntDir>$(ProjectDir)obj\</IntDir>
+    <IncludePath>$(SolutionDir)libs\include\;$(SolutionDir)include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)libs\bin\$(Configuration)\</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">
+    <IncludePath>$(SolutionDir)libs\include\;$(SolutionDir)include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)libs\bin\$(Configuration)\</LibraryPath>
+    <IntDir>$(ProjectDir)obj\</IntDir>
+    <OutDir>$(ProjectDir)bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(SolutionDir)libs\bin\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)obj\</IntDir>
+    <IncludePath>$(SolutionDir)libs\include\;$(SolutionDir)include\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_ENGINE_BUILD_DLL_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>include\;libs\include\zlib\</AdditionalIncludeDirectories>
+      <EnablePREfast>true</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>miniZip.lib;lua.lib;SDL.lib;PugiXML.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>miniZip_Debug.lib;zlib_Debug.lib;lua_Debug.lib;pugixml_Debug.lib</AdditionalDependencies>
+      <AdditionalDependencies>miniZip_Debug.lib;zlib_Debug.lib;pugixml_Debug.lib</AdditionalDependencies>
+      <ModuleDefinitionFile>K15_Engine.def</ModuleDefinitionFile>
+      <ImportLibrary>$(SolutionDir)bin\$(Configuration)\$(ProjectName)_Debug.lib</ImportLibrary>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)bin\$(Configuration)\$(TargetFileName)" "$(SolutionDir)engine test\bin\$(Configuration)\" /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include\;libs\include\zlib\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>miniZip.lib;lua.lib;SDL.lib;PugiXML.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>miniZip_Debug.lib;lua_Debug.lib;pugiXML_Debug.lib;zlib_Debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>K15_Engine.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>include\;libs\include\zlib\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_ENGINE_BUILD_DLL_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>K15_Engine.def</ModuleDefinitionFile>
+      <AdditionalDependencies>miniZip.lib;zlib.lib;lua.lib;pugixml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>miniZip.lib;zlib.lib;pugixml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>$(SolutionDir)bin\$(Configuration)\$(ProjectName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>include\;libs\include\zlib\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>K15_Engine.def</ModuleDefinitionFile>
+      <AdditionalDependencies>miniZip.lib;lua.lib;pugiXML.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

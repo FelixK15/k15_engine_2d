@@ -1,0 +1,13 @@
+bin
+/obj
+bin
+/plugins/LuaClasses/obj
+*.sdf
+/plugins/SDL_EngineSubSystem/bin
+bin
+ipch
+obj
+Release
+bin
+Debug
+obj

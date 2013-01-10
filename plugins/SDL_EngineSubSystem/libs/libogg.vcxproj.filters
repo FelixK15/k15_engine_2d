@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\libogg\bitwise.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libogg\framing.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{d92cd872-91b8-4631-bd5c-31dd2b939010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c82987c3-d4cd-4ffe-88e4-22eb2bf5453d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\libogg\ogg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\libogg\os_types.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

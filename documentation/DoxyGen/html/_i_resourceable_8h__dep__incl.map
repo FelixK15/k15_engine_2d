@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$_i_graphic_8h.html" title="F:/Programming/C++/My Projects/K15 Engine/include/IGraphic.h" alt="" coords="51,80,448,107"/>
+<area shape="rect" id="node7" href="$_i_music_8h_source.html" title="F:/Programming/C++/My Projects/K15 Engine/include/IMusic.h" alt="" coords="496,80,883,107"/>
+<area shape="rect" id="node11" href="$_i_sound_8h_source.html" title="F:/Programming/C++/My Projects/K15 Engine/include/ISound.h" alt="" coords="907,80,1296,107"/>
+<area shape="rect" id="node15" href="$_i_font_8h.html" title="F:/Programming/C++/My Projects/K15 Engine/include/IFont.h" alt="" coords="1320,80,1699,107"/>
+<area shape="rect" id="node5" href="$_abstract_graphic_8h_source.html" title="F:/Programming/C++/My Projects/K15 Engine/include/AbstractGraphic.h" alt="" coords="5,155,448,181"/>
+<area shape="rect" id="node9" href="$_abstract_music_8h.html" title="F:/Programming/C++/My Projects/K15 Engine/include/AbstractMusic.h" alt="" coords="473,155,905,181"/>
+<area shape="rect" id="node13" href="$_abstract_sound_8h.html" title="F:/Programming/C++/My Projects/K15 Engine/include/AbstractSound.h" alt="" coords="931,155,1365,181"/>
+</map>

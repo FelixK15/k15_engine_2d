@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{104dba54-a613-4119-a296-48dcdfd1eaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{da55344f-cd68-40ec-a80d-360bdca1acd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SDL_gfx\SDL_rotozoom.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_gfx\SDL_framerate.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_gfx\SDL_gfxBlitFunc.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_gfx\SDL_gfxPrimitives.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDL_gfx\SDL_imageFilter.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SDL_gfx\SDL_framerate.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_gfx\SDL_gfxBlitFunc.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_gfx\SDL_gfxPrimitives.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_gfx\SDL_gfxPrimitives_font.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_gfx\SDL_imageFilter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_gfx\SDL_rotozoom.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

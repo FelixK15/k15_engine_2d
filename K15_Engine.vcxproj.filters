@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{5c57b527-fc22-4b79-b294-457dd854ca75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{df82b8b1-df55-47b8-be77-68248bd77ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Abstract Classes">
+      <UniqueIdentifier>{ddde1c9a-3ca8-4466-99e2-6c5bbeeb09f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Predefined Components">
+      <UniqueIdentifier>{3e299050-2f5f-4e0e-855d-8ee6f1b4534e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Interfaces">
+      <UniqueIdentifier>{ed339867-69c1-459a-82ba-2f6e6c03686b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Abstract Classes">
+      <UniqueIdentifier>{0e513f20-b3df-42e4-8931-0cf2bdf73dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Predefined Components">
+      <UniqueIdentifier>{5488f244-591a-49e2-9b7a-2196dd4ad151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Manager">
+      <UniqueIdentifier>{485eda87-151d-45cd-b3e4-d6a9112b18e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Manager">
+      <UniqueIdentifier>{0c427f62-5a8f-48e5-b908-b901efbdc69e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Animation.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationData.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Circle.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Color.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Event.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Position.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rectangle.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resource.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Size.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMachine.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZipResourceFile.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StringConverter.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Globals.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HashedString.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DateTime.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Line.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ellipse.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameWorldState.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseShape.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseWindow.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynLibWindows.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicLibrary.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LogEntry.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Log.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TiledGameWorldCreator.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameWorld.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameWorldLayer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Events.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawableString.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Console.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigFile.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameWorldFactory.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Debug.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractSound.cpp">
+      <Filter>Quelldateien\Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractFontManager.cpp">
+      <Filter>Quelldateien\Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractGraphic.cpp">
+      <Filter>Quelldateien\Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractGraphicManager.cpp">
+      <Filter>Quelldateien\Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractMusic.cpp">
+      <Filter>Quelldateien\Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionComponent.cpp">
+      <Filter>Quelldateien\Predefined Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimatedComponent.cpp">
+      <Filter>Quelldateien\Predefined Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventListenerComponent.cpp">
+      <Filter>Quelldateien\Predefined Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VersatileComponent.cpp">
+      <Filter>Quelldateien\Predefined Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionManager.cpp">
+      <Filter>Quelldateien\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventManager.cpp">
+      <Filter>Quelldateien\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectManager.cpp">
+      <Filter>Quelldateien\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager.cpp">
+      <Filter>Quelldateien\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentFactory.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderableComponent.cpp">
+      <Filter>Quelldateien\Predefined Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="K15_Engine.def" />
+    <None Include="documentation\Bugtracking.xls">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="documentation\ToDo.xls">
+      <Filter>Docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Animation.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AnimationData.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseShape.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Circle.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Color.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConfigFile.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Console.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DateTime.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Debug.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DLL_Header.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DrawableString.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DynamicLibrary.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DynLibWindows.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ellipse.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Event.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Events.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileHandle.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameWorld.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameWorldFactory.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameWorldLayer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameWorldState.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Globals.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HashedString.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Keymap.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Line.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Log.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LogEntry.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Manager.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MathForms.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Position.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rectangle.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Singleton.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Size.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StandardIncludes.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\State.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StateMachine.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StringConverter.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TiledGameWorldCreator.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Types.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UsefulMakros.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Variant.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ZipResourceFile.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractComponent.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractWindow.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractFontManager.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractGraphic.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractGraphicManager.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractMessageQueue.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractMusic.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractMusicManager.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractSound.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractSoundManager.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AbstractSystemManager.h">
+      <Filter>Headerdateien\Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AnimatedComponent.h">
+      <Filter>Headerdateien\Predefined Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CollisionComponent.h">
+      <Filter>Headerdateien\Predefined Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventListenerComponent.h">
+      <Filter>Headerdateien\Predefined Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VersatileComponent.h">
+      <Filter>Headerdateien\Predefined Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IDynLibOSSpec.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ISound.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IEngineSubSystem.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IEventListener.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFileSubSystem.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFont.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGame.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGraphic.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IMusic.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IResourceable.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IResourceFile.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CollisionManager.h">
+      <Filter>Headerdateien\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventManager.h">
+      <Filter>Headerdateien\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObjectManager.h">
+      <Filter>Headerdateien\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager.h">
+      <Filter>Headerdateien\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IState.h">
+      <Filter>Headerdateien\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ComponentFactory.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderableComponent.h">
+      <Filter>Headerdateien\Predefined Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LuaAble.h" />
+    <ClInclude Include="include\LuaCommand.h" />
+    <ClInclude Include="include\LuaManager.h" />
+    <ClInclude Include="include\LuaScript.h" />
+  </ItemGroup>
+</Project>

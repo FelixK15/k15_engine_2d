@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{98452bcd-1bac-4f32-9f58-0960739af4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{303ad06c-6d6c-4ea3-86ee-95fda8b80235}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\smpeg\MPEGfilter.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smpeg\plaympeg.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\MPEG.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\MPEGlist.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\MPEGring.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\MPEGstream.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\MPEGsystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\smpeg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\decoders.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\floatdct.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\parseblock.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\gdith.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\jrevdct.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\motionvec.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\MPEGvideo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\readfile.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\util.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\vhar128.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\video\video.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\bitwindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\mpegtoraw.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\filter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\filter_2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\hufftable.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\MPEGaudio.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\mpeglayer1.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\mpeglayer2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\mpeglayer3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\smpeg\audio\mpegtable.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\smpeg\MPEG.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGaction.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGaudio.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGerror.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGfilter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGlist.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGring.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGstream.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGsystem.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\MPEGvideo.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\smpeg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\video\decoders.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\video\dither.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\video\proto.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\video\util.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\video\vhar128.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smpeg\video\video.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
